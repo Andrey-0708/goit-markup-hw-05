@@ -619,10 +619,12 @@ a {
 .modal-close:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-close:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .close-icon:hover {
   background-color: #404bbf;
@@ -643,8 +645,8 @@ a {
   margin-bottom: 16px;
   text-align: center;
 }
-.modal-field {
-  margin-bottom: 8px;
+.modal-field-four {
+  margin-bottom: 16px;
 }
 
 .input-wrap {
@@ -736,8 +738,9 @@ a {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-check:checked + .modal-check-text .modal-check-item {
   background-color: #404bbf;
@@ -756,7 +759,7 @@ a {
 }
 
 .modal-btn {
-   font-family: "Roboto" sans-serif;
+  font-family: "Roboto" sans-serif;
   display: block;
   margin: 0 auto;
   background-color: #4d5ae5;
